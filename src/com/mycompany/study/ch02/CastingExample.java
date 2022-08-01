@@ -32,11 +32,11 @@ public class CastingExample {
 		byte byteValue = (byte) shortValue;
 		System.out.println("byteValue:" + byteValue);
 		
-		//string 을 int로 변환  ***매우중요
+		//int 를 string 으로 변환  ***매우중요
 		String stringValue = String.valueOf(intValue);
 		System.out.println("stringValue: " + stringValue);
 				
-		//int 를 string으로 변환
+		//string을  int 로 변환
 		int intValue2 = Integer.parseInt(stringValue);
 		System.out.println("intValue2:" +intValue2);
 		
