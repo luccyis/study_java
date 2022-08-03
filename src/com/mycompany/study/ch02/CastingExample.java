@@ -41,6 +41,7 @@ public class CastingExample {
 		System.out.println("intValue2:" +intValue2);
 		
 		
+		
 	}
 
 }
