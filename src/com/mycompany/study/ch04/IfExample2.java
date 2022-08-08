@@ -6,23 +6,26 @@ public class IfExample2 {
 
 		int price = 20000;
 		
-		int user = 3;
+		int user = 5;
 		
 		
 		if(user == 1) {
-			System.out.println("정가:"+ price + " 할인가 :"+ (int)(price * (1 -0.05)) + "원");
+			System.out.println("정가:"+ price + "원" + " 할인가 :"+ (int)(price * (1 -0.05)) + "원");
 		}
 		else if (user == 2) {
-			System.out.println("정가:" + price + " 할인가 :"+ (int)(price * (1 - 0.1)) + "원");
+			System.out.println("정가:" + price + "원" + " 할인가 :"+ (int)(price * (1 - 0.1)) + "원");
 		}
 		else if (user == 3) {
-			System.out.println("정가:" + price + " 할인가 :"+ (int)(price * (1 - 0.15)) + "원");
+			System.out.println("정가:" + price + "원" + " 할인가 :"+ (int)(price * (1 - 0.15)) + "원");
 		}
 		else if (user == 4) {
-			System.out.println("정가:" + price + " 할인가 :"+ (int)(price * (1 - 0.2)) + "원");
+			System.out.println("정가:" + price + "원" + " 할인가 :"+ (int)(price * (1 - 0.2)) + "원");
+		}
+		else if (user == 5){
+			System.out.println("정가:" + price + "원" + " 할인가 :"+ (int)(price * (1 - 0.27)) + "원");
 		}
 		else {
-			System.out.println("정가:" + price + " 할인가 :"+ (int)(price * (1 - 0.27)) + "원");
+			System.out.println("회원등급을 확인해주세요.");
 		}
 	}
 
