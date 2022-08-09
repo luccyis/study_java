@@ -9,44 +9,33 @@ public class IfExample {
 		if(score >= 90) {
 			if(score >=97) {
 				System.out.println("A+");
-			}
-			else if (score <= 92) {
+			} else if (score <= 92) {
 				System.out.println("A-");
-			}
-			else {
+			} else {
 				System.out.println("A");
 			}
-		}		
-		else if(score >= 80 & score < 90) {
+		} else if(score >= 80 & score < 90) {
 			if(score >=87) {
 				System.out.println("B+");
-			}
-			else if (score <= 82) {
+			} else if (score <= 82) {
 				System.out.println("B-");
-			}
-			else {
+			} else {
 				System.out.println("B");
 			}
-		}
-		else if(score >= 70 & score < 80) {
+		} else if(score >= 70 & score < 80) {
 			if(score >=77) {
 				System.out.println("C+");
-			}
-			else if (score <= 72) {
+			} else if (score <= 72) {
 				System.out.println("C-");
-			}
-			else {
+			} else {
 				System.out.println("C");
 			}
-		}
-		else if(score >= 60 & score <70 ) {
+		} else if(score >= 60 & score <70 ) {
 			if(score >=67) {
 				System.out.println("D+");
-			}
-			else if (score <= 62) {
+			} else if (score <= 62) {
 				System.out.println("D-");
-			}
-			else {
+			} else {
 				System.out.println("D");
 			}
 		} else {
