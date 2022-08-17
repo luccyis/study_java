@@ -12,9 +12,9 @@ public class ForExample {
 //		출력하는 프로그램을 만드시오
 	
 		for(int i = 1; i <=5; i++) {
-			for(int j = 1; j<=8; j++) {
+			for(int j = 1; j<=10; j++) {
 			System.out.print("*");
-			if(j == 8) {
+			if(j == 10) {
 				System.out.printf("%n");
 				}
 			}
@@ -34,6 +34,21 @@ public class ForExample {
 //		************
 //		출력하는 프로그램을 만드시오
 		
+	
+		for(int i=1; i<=5; i++) {
+			for(int j=1; j<=10; j++) {
+				if(i>=2 && i<=4) {
+					if(j>=2 && j<=9) {
+						System.out.print(" ");
+					} else {
+						System.out.print("*");
+					}
+				} else {
+					System.out.print("*");
+				}
+			}
+			System.out.println();
+		}
 		
 
 		for(int i =1; i <=5; i++) {
@@ -83,15 +98,22 @@ public class ForExample {
 //		1 3 5 7 90
 //		출력하는 프로그램을 만드시오
 		
-	
-		String sum = "";
-		
+
 		for(int i = 1; i <=10; i++) {
-			sum += i;
 			if(i == 10) {
-				System.out.println("1 3 5 7 90");
+				for(int j=1; j <= i-1; j++) {
+					if(j%2==1) {
+						System.out.print(j);
+					} else {
+						System.out.print(" ");
+					}
+				}
+				System.out.println("0");
 			} else {
-				System.out.println(sum);
+				for(int j=1; j <=i; j++) {
+					System.out.print(j);
+				}
+				System.out.println();
 			}
 		}
 		
