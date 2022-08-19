@@ -17,7 +17,7 @@ public class ArrayInArrayExample {
 		String[] name = {"장원영", "장동건", "고소영", "고명지", "최재원"};
 		String[] subject = {"국어", "영어", "수학"};
 		
-
+		//1 번 
 		for(int i=0; i<scores.length; i++) {
 			int sum =0;
 			for(int j=0; j<scores[i].length; j++) {
@@ -26,14 +26,33 @@ public class ArrayInArrayExample {
 			System.out.println(name[i] + "평균 점수는: " + ((double)sum/3));
 			}
 		
+		System.out.println("------------------------");
 		
-		for(int j=0; j<3; j++) {
-			int sum = 0;
-			for(int i=0; i<scores.length; i++) {
-				sum += scores[i][j];
+		//2.번
+		int[] sum2 = new int[3];
+		
+		for(int i=0; i<scores.length; i++) {
+			for(int j=0; j<scores[i].length; j++) {
+				sum2[j] += scores[i][j];
 			}
-			System.out.println(subject[j] + "과목의 평균 점수는: " +  ((double)sum/5));
 		}
+		for(int i=0; i<sum2.length; i++) {
+			System.out.println(subject[i] + " 과목의 평균 점수는: "+ ((double)sum2[i]/scores.length));
+		}
+		
+		
+		
+		
+		
+		
+		
+//		for(int j=0; j<3; j++) {
+//			int sum = 0;
+//			for(int i=0; i<scores.length; i++) {
+//				sum += scores[i][j];
+//			}
+//			System.out.println(subject[j] + "과목의 평균 점수는: " +  ((double)sum/5));
+//		}
 		
 		
 		
