@@ -12,6 +12,10 @@ public class KoreanExample {
 		System.out.println("k1.name: " + k1.name);
 		System.out.println("k1.age: " + k1.age);
 		
+		System.out.println("Korean.nationality: " + Korean.nationality);
+		
+		System.out.println(Korean.staticTest(17));
+		
 		
 	}
 

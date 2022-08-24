@@ -40,7 +40,23 @@ public class Arithmetic {
 		System.out.println(a + b);
 	}
 	
+	public String aaa (int a) {
+		return "";
+	}
 	
+	public boolean bbb (int a) {
+		return true;
+	}
+	public double ccc (int a) {
+		return 1.1;
+	}
+	public void ddd (int a) {
+		
+	}
+	
+	static void staticTest() {
+		System.out.println("나는 토니당...");
+	}
 	
 	
 	
